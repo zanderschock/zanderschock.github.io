@@ -18,7 +18,15 @@ font-size: 20px;
         font-style: italic;
         color: black;
     }
-
+main {
+    background: coral;
+}
+    footer {
+        background: aliceblue;
+        border: black solid thin;
+        padding-left: 5px;
+        border-radius: 8px;
+    }
 }
 .red-heading {
 color: red;
