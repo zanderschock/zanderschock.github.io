@@ -46,7 +46,7 @@ header p {
 }
 
 figure.left {
-    float: left;
+    float: center;
 }
 
 figure.border {
@@ -54,4 +54,11 @@ figure.border {
     border: black solid thin;
     padding: 5px;
 }                    
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
             
