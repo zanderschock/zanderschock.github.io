@@ -39,3 +39,19 @@ color: red;
 new-font {
     font-family: fantasy, cursive, serif;
 }
+
+header p {
+    font-weight: bold;
+    color: blue;
+}
+
+figure.left {
+    float: left;
+}
+
+figure.border {
+    background-color: lightslategray;
+    border: black solid thin;
+    padding: 5px;
+}                    
+            
