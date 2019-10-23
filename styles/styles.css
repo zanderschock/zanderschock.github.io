@@ -112,3 +112,14 @@ background-color:cyan;
        color: red;
     
    }
+   
+   aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 20%;        
+}
