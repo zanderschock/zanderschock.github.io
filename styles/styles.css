@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: lightblue;
 
 }
 h1 {
@@ -80,3 +80,35 @@ figcaption {
     text-align: center;
 }
             
+    .btn-padding {
+        padding: 25px;
+        border: 10px green double;    
+        border-radius: 22px;
+    }
+
+
+    .btn-padding:hover {
+        background-color: aqua;
+        border-color: white;
+    }      
+
+    .btn-margin-padding {
+        margin: 25px;
+        border: 15px blue;
+        border-style: ridge;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+
+   #button-wrapper {
+border: thin black solid;
+display:inline-block;
+background-color:cyan;
+   }
+
+   .btn-margin-padding:active{
+       color: red;
+    
+   }
