@@ -1,5 +1,7 @@
 body {
-    background-color: red;
+    background-color: lightblue;
+max-width: 500px;
+margin:auto;
 
 }
 h1 {
@@ -44,7 +46,25 @@ header p {
     font-weight: bold;
     color: blue;
 }
+nav {        
+    background-color: aliceblue;
+    border: 1px green solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+           
 figure.left {
     float: center;
 }
@@ -62,3 +82,46 @@ figcaption {
     text-align: center;
 }
             
+    .btn-padding {
+        padding: 25px;
+        border: 10px green double;    
+        border-radius: 22px;
+    }
+
+
+    .btn-padding:hover {
+        background-color: aqua;
+        border-color: white;
+    }      
+
+    .btn-margin-padding {
+        margin: 25px;
+        border: 15px blue;
+        border-style: ridge;
+        padding-left: 20px;
+        padding-right: 20px;
+
+
+    }
+
+   #button-wrapper {
+border: thin black solid;
+display:inline-block;
+background-color:cyan;
+   }
+
+   .btn-margin-padding:active{
+       color: red;
+    
+   }
+   
+   aside {        
+    background-color: bisque;
+    border: black 1px solid;
+    border-radius: 8px;
+    float: right;
+    font-style: italic;
+    margin-right: 5px;
+    padding: 8px;
+    width: 20%;        
+}
