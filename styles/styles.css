@@ -125,3 +125,13 @@ background-color:cyan;
     padding: 8px;
     width: 20%;        
 }
+
+.elf-div-border {
+    display:inline-block;
+    border: black 1px solid;
+
+}
+
+foo {
+    border: 04 24 92;
+}
