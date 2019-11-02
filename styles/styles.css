@@ -66,7 +66,7 @@ nav li {
 }
            
 figure.left {
-    float: center;
+    float: right;
 }
 
 figure.border {
@@ -134,4 +134,9 @@ background-color:cyan;
 
 foo {
     border: 04 24 92;
+}
+
+img {
+max-width: 300px;
+
 }
