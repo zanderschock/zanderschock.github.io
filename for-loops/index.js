@@ -6,7 +6,7 @@ window.onload = () => {
             list.appendChild(li);
         }
     };
-    const listButton = document.getElementById('runForLoopAction');
+    const listButton = document.getElementById('runForLoop');
 
     listButton.onclick = function() {}
         const myList = document.getElementById('myList');
