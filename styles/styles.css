@@ -140,3 +140,17 @@ img {
 max-width: 300px;
 
 }
+
+button {
+    float: left;
+    width: 150px;
+}
+
+input {
+    float: left;
+    width: 45px;
+}
+
+div {
+    clear: both;
+}
