@@ -15,5 +15,24 @@ var calculator = {
 
 console.log(calculator);
 
+let divider=(title) => {
+    console.log("\n==================");
+    console.log(title);
+    console.log("==================");
+};
+
+divider('Calculator');
+console.log('operand01 =', calculator.operand01);
+
+var calculator = {
+    add: function() {
+        console.log(calculator.operand01 + calculator.operand02));
+    },
+    subtract: function() {
+        console.log+(calculator.operand01 -calculator.operand02));
+
+};
+
+
    
 
