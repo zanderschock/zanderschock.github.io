@@ -13,6 +13,7 @@ window.onload = () => {
     const simpleObject = {
         firstName: "Zander",
         lastName: "Schock",
+        
         sayName: function () {
             const fullName = this.firstName + " " + this.lastName;
             console.log(fullName);
