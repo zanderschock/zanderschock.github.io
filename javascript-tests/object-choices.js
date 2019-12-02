@@ -51,8 +51,3 @@ window.onload = () => {
             return "Private Function";
         }
     }
-
-    class CustomClass {
-        sayName() {
-            console.log("Custom Class");
-    }
